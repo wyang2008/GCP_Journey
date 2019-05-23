@@ -29,10 +29,14 @@ Here is the sample results
     PASSED [k8s.io] Container Lifecycle Hook when create a pod with lifecycle hook should execute prestop http hook properly [NodeConformance] [Conformance]                                     Kubernetes e2e suite        
     ...
 
-                                                                                                                                                                   
+Specify the provider for the installation.                                                                                                                                                                
 
+    jx install --provider=gke
+jenkins x will asks for your input during the installation:
+
+    enter code here
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjYwOTM1MiwtMTAwNDg4NTA1MSwtMT
-g0NTExOTAwN119
+eyJoaXN0b3J5IjpbOTcwNDQzNzU0LC0xMDA0ODg1MDUxLC0xOD
+Q1MTE5MDA3XX0=
 -->
