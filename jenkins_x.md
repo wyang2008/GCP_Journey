@@ -22,9 +22,17 @@ When the checking is completed, use below command to check the result
     jx compliance results
 Here is the sample results
 
-    
+    STATUS TEST       TEST-CLASS
+    FAILED [k8s.io] Kubelet when scheduling a busybox Pod with hostAliases should write entries to /etc/hosts [LinuxOnly] [NodeConformance] [Conformance]                                        Kubernetes e2e suite
+    PASSED [k8s.io] Container Lifecycle Hook when create a pod with lifecycle hook should execute poststart exec hook properly [NodeConformance] [Conformance]                                   Kubernetes e2e suite
+    PASSED [k8s.io] Container Lifecycle Hook when create a pod with lifecycle hook should execute prestop exec hook properly [NodeConformance] [Conformance]                                     Kubernetes e2e suite
+    PASSED [k8s.io] Container Lifecycle Hook when create a pod with lifecycle hook should execute prestop http hook properly [NodeConformance] [Conformance]                                     Kubernetes e2e suite        
+    ...
+
+                                                                                                                                                                   
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ4ODUwNTEsLTE4NDUxMTkwMDddfQ
-==
+eyJoaXN0b3J5IjpbMTcxNjYwOTM1MiwtMTAwNDg4NTA1MSwtMT
+g0NTExOTAwN119
 -->
