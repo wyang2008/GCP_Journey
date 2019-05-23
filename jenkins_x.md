@@ -20,8 +20,11 @@ This will take up to 60 minutes for the checking.
 When the checking is completed, use below command to check the result
 
     jx compliance results
-Here is the 
+Here is the sample results
+
+    
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQyMzIzODksLTE4NDUxMTkwMDddfQ
+eyJoaXN0b3J5IjpbLTEwMDQ4ODUwNTEsLTE4NDUxMTkwMDddfQ
 ==
 -->
