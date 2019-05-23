@@ -15,7 +15,13 @@ Before installing jenkins x on your cluster, you can validate your cluster perfo
 
     jx compliance run
 This will take up to 60 minutes for the checking. 
-![jx compliance run & status](https://github.com/wyang2008/GCP_Journey/blob/master/jx_compliance.jpg)
+![jx compliance run & status](https://github.com/wyang2008/GCP_Journey/blob/master/jx_compliance.jpg) 
+
+When the checking is completed, use below command to check the result
+
+    jx compliance results
+Here is the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUxMTkwMDddfQ==
+eyJoaXN0b3J5IjpbLTEzMTQyMzIzODksLTE4NDUxMTkwMDddfQ
+==
 -->
