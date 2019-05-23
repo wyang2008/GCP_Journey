@@ -34,9 +34,18 @@ Specify the provider for the installation.
     jx install --provider=gke
 jenkins x will asks for your input during the installation:
 
-    enter code here
+    ? Select Jenkins installation type: Serverless Jenkins X Pipelines with Tekton
+    Please enter the name you wish to use with git:  *******
+? Please enter the email address you wish to use with git:  ********
+? No existing ingress controller found in the kube-system namespace, shall we install one? Yes
+? Domain 34.92.207.14.nip.io
+nginx ingress controller installed and configured
+? Would you like to enable Long Term Storage? A bucket for provider gke will be created Yes
+? Google Cloud Zone: asia-east2-b
+? GitHub user name: wengzhong2001
+? API Token: ****************************************
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNDQzNzU0LC0xMDA0ODg1MDUxLC0xOD
-Q1MTE5MDA3XX0=
+eyJoaXN0b3J5IjpbLTk3MzAzMjIxMywtMTAwNDg4NTA1MSwtMT
+g0NTExOTAwN119
 -->
