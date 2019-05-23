@@ -32,29 +32,30 @@ Here is the sample results
 Specify the provider for the installation.                                                                                                                                                                
 
     jx install --provider=gke
-jenkins x will asks for your input during the installation:
+jenkins x will ask for your input during the installation:
 
     ? Select Jenkins installation type: Serverless Jenkins X Pipelines with Tekton
-    Please enter the name you wish to use with git:  *******
-? Please enter the email address you wish to use with git:  ********
-? No existing ingress controller found in the kube-system namespace, shall we install one? Yes
-? Domain ***.***.***.***.nip.io
-nginx ingress controller installed and configured
-? Would you like to enable Long Term Storage? A bucket for provider gke will be created Yes
-? Google Cloud Zone: ****-****-*
-? GitHub user name: ********
-? API Token: ****************************************
-Select the CI/CD pipelines Git server and user
-? Do you wish to use GitHub as the pipelines Git server: Yes
-Creating a pipelines Git user for GitHub server
-To be able to create a repository on GitHub we need an API Token
-Please click this URL https://github.com/settings/tokens/new?scopes=repo,read:user,read:org,user:email,write:repo_hook,delete_repo
+    ?Please enter the name you wish to use with git:  *******
+    ? Please enter the email address you wish to use with git:  ********
+    ? No existing ingress controller found in the kube-system namespace, shall we install one? Yes
+    ? Domain ***.***.***.***.nip.io
+    nginx ingress controller installed and configured
+    ? Would you like to enable Long Term Storage? A bucket for provider gke will be created Yes
+    ? Google Cloud Zone: ****-****-*
+    ? GitHub user name: ********
+    ? API Token: ****************************************
+    Select the CI/CD pipelines Git server and user
+    ? Do you wish to use GitHub as the pipelines Git server: Yes
+    Creating a pipelines Git user for GitHub server
+    To be able to create a repository on GitHub we need an API Token
+    Please click this URL https://github.com/settings/tokens/new?scopes=repo,read:user,read:org,user:email,write:repo_hook,delete_repo
+    
+    Then COPY the token and enter in into the form below:
+    
+    ? API Token: ****************************************
+    Setting the pipelines Git server https://github.com and user name ********.
 
-Then COPY the token and enter in into the form below:
-
-? API Token: ****************************************
-Setting the pipelines Git server https://github.com and user name ********.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTA5MzYxNCwtMTAwNDg4NTA1MSwtMT
+eyJoaXN0b3J5IjpbMTcxODA3MTAxNCwtMTAwNDg4NTA1MSwtMT
 g0NTExOTAwN119
 -->
